@@ -3,21 +3,18 @@
 
 .logo img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;  
+    margin: auto;
+    margin-top:4em
  }   
 
-
-.me-photo {
- 
+.logo-contact img {
+    display: block;
+    margin:auto;
+    
 }
-
 
 .me-photo img {
     margin:auto;
-    
-    
-    
     
 }
 
@@ -25,7 +22,7 @@
 .photography-images img{
     width: 48%;
     float: left;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
     margin-right: 1%;
     margin-left: 1%;
     
@@ -74,14 +71,44 @@
 }
 
 
+.contact-buttons ul{
+     width: 100%;
+     margin-left: 2em;
+     margin-top: 1.5em;
+
+}
+
+.contact-buttons ul li {
+    display: block;
+    position: relative;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+    line-height: 1em;
+    
+}
 
 
+.contact-buttons ul li a{
+    color: grey;
+}
+
+.contact-buttons ul li a:visited {
+    color: grey;
+    
+}
+
+.contact-buttons ul li a:hover {
+    color: #83b5bb;
+}
+
+    
 
  h1 {font-family: sans-serif;
-    font-size: 1.5em;
+    font-size: 1.75em;
+    color: #83b5bb;
     text-align: center;
-     margin-top: 1em;
-         margin-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 
 }
 
@@ -89,7 +116,7 @@
 
 p {
      margin-top: 1.5em;
-    font-size: 1.25em;
+    font-size: 1em;
 }
     
 
