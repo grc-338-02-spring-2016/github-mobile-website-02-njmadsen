@@ -1,5 +1,12 @@
 /* CSS Document */
 
+html, body {
+  height: 100%;
+  width: 100%;
+    background-image: url(background-image.png);
+	background-size: cover;
+    
+}
 
 .logo img{
     display: block;
@@ -34,7 +41,7 @@
     width: 100%;
     padding-top:2em;
     padding-bottom: 2.5em;
-    background-color: grey;
+    background-color: dimgray;
 
     
     
@@ -45,8 +52,8 @@
     display: block;
     position: relative;
     float: left;
-    font-size: .9em;
-    font-family: sans-serif;
+    font-size: .8em;
+    font-family: 'Raleway', sans-serif;
     color: white;
     width: 24%;
     text-align: center;
@@ -57,6 +64,7 @@
 
 .menu ul li a {
     text-decoration: none;
+    color: white;
 }
 
 .menu ul li a:visited {
@@ -73,7 +81,7 @@
 
 .contact-buttons ul{
      width: 100%;
-     margin-left: 2em;
+     margin-left: 3em;
      margin-top: 1.5em;
 
 }
@@ -89,21 +97,17 @@
 
 
 .contact-buttons ul li a{
-    color: grey;
+    color: gray;
 }
 
 .contact-buttons ul li a:visited {
-    color: grey;
+    color: dimgray;
     
 }
-
-.contact-buttons ul li a:hover {
-    color: #83b5bb;
-}
-
     
 
- h1 {font-family: sans-serif;
+ h1 {
+     font-family: 'Raleway', sans-serif;
     font-size: 1.75em;
     color: #83b5bb;
     text-align: center;
@@ -112,11 +116,29 @@
 
 }
 
-
-
-p {
-     margin-top: 1.5em;
+h2 { 
+    font-family: 'Raleway', sans-serif;
     font-size: 1em;
+    line-height: 1.5em;
+    color: dimgrey;
+    text-align: center;
+    
+}
+
+em {
+    font-style: italic;
+    font-size: .85em;
+    line-height: 1.5;
+    margin: 0px auto 40px auto;
+
+}
+    
+p {
+    margin-top: 1.5em;
+    color: dimgrey;
+    font-size: 1em;
+    line-height: 1.4em;
+    font-family: 'Raleway', sans-serif;
 }
     
 
